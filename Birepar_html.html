@@ -1,0 +1,136 @@
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <titel></titel>	
+
+        <style>
+            body{
+                background-color:#a8bd97;
+            }
+
+            #taskone{
+                background-color: #042423;
+                width: 100%;
+                height: 15%;
+                position: fixed ;
+            }
+
+            #invisible{
+                height: 15%;
+            }
+            h1{
+                color: white;
+                text-align:center;
+                padding-top: 1%;
+            }
+
+
+            a{
+                color: white;
+                text-decoration: none;
+                margin-left:4%;
+                margin-right: 4%;
+                font-size: larger;
+            }
+
+            #d1{
+                width: 49%;
+                height: 35%;
+                float: left;
+                margin-top: 5%;
+                background-color:#132b2d;
+                color:  white;
+            }
+
+            #d2{
+                width: 49%;
+                height: 35%;
+                float: right;
+                margin-top: 5%;
+                background-color:#132b2d;
+                color: white;
+            }
+
+            #first{
+                color: aqua;
+                width: 10%;
+                height: 5%;
+                margin: 5%;
+            }
+
+            #second{
+                color: aqua;
+                width: 10%;
+                height: 5%;
+                margin: 5%;
+            }
+
+            #thirt{
+                color: aqua;
+                width: 10%;
+                height: 5%;
+                margin: 5%;
+            }
+
+            #fourt{
+                color: aqua;
+                width: 10%;
+                height: 5%;
+                margin: 5%;
+            }
+        </style>
+
+        <body>
+            <div id="taskone">
+                <h1><b>BIREPAR</b></h1>
+            </div>
+
+            <div id="invisible"></div>
+        
+            <div id="d1">
+                <button id="first"></button>
+                <button id="second"></button>
+                <button id="thirt"></button>
+                <button id="fourt"></button>
+            </div>
+            <div id="d2"></div>
+            <div id="d1"></div>
+            <div id="d2"></div>
+            <div id="d1"></div>
+            <div id="d2"></div>
+            <div id="d1"></div>
+            <div id="d2"></div>
+        
+        
+        <script type="text/javascript">
+            
+                document.alert("HAllo World");
+
+            document.getElementById("first").onclick = function(){
+
+                document.getElementById("d1").style.backgroundColor="red";
+            }
+
+            document.getElementById("second").onclick = function(){
+
+            document.getElementById("d1").style.backgroundColor="blue";
+            }
+
+            document.getElementById("thirt").onclick = function(){
+
+            document.getElementById("d1").style.backgroundColor="green";
+            }
+
+            document.getElementById("fourt").onclick = function(){
+
+            document.getElementById("d1").style.backgroundColor="#132b2d";
+            }
+        </script>
+        
+        
+        </body>
+
+
+        
+
+</html>

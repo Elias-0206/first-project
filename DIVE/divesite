@@ -1,0 +1,102 @@
+<html>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <titel></titel>	
+
+        <style>
+            body{
+                background-color:honeydew;
+            }
+
+            #search{
+                background-color: black;
+                width: 100%;
+                height: 15%;
+                position: ;
+            }
+            h1{
+                color: white;
+                text-align:center;
+                padding-top: 1%;
+            }
+
+            a{
+                color: white;
+                text-decoration: none;
+                margin-left:4%;
+                margin-right: 4%;
+                font-size: larger;
+            }
+
+            #b1{
+                width: 10%;
+                height: auto;
+                background-color:;
+                float:right;
+                margin-right: 2%;
+                margin-top: -7%;
+                
+            }
+
+            #bp1{
+                width: 100%;
+                height: 100%;
+                
+            }
+
+            #d1{
+                width: 45%;
+                height: 35%;
+                float: left;
+                margin-top: 5%;
+                background-color: black;
+                color:  white;
+            }
+
+            #d2{
+                width: 45%;
+                height: 35%;
+                float: right;
+                margin-top: 5%;
+                
+                background-color: black;
+            }
+        </style>
+
+        <body>
+            <div id="search">
+                <h1><b>DIVART</b></h1>
+                <button id="b1"><img src="Settings-logo.png" id="bp1"></button>
+                <a href=""><b>Germany </b></a>
+                <a href=""><b>Croatia</b></a>
+                <a href=""><b>Oceania</b></a>
+                <a href=""><b>Sout America </b></a>
+                <a href=""><b>Sout Afrika</b></a>
+               
+               
+            </div>
+        
+            <div id="d1"></div>
+            <div id="d2"></div>
+            <div id="d1"></div>
+            <div id="d2"></div>
+            <div id="d1"></div>
+            <div id="d2"></div>
+            <div id="d1"></div>
+            <div id="d2"></div>
+        
+        
+        <script type="text/javascript">
+
+
+
+        </script>
+        
+        
+        </body>
+
+
+        
+
+</html>
